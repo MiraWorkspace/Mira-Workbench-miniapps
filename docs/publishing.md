@@ -32,6 +32,7 @@ https://example.com/my-miniapp/
   "manifestVersion": 1,
   "id": "my-miniapp",
   "name": "我的小程序",
+  "description": "说明小程序的用途，帮助用户在安装前了解功能。",
   "version": "1.0.0",
   "entry": "index.html",
   "requiredCapabilities": ["appearance:read"],
@@ -44,7 +45,7 @@ https://example.com/my-miniapp/
 }
 ```
 
-上面的摘要与大小是示意值，必须根据最终文件生成。`package` 只属于在线清单；包内清单也包含相同 `update.url`，不包含 `package`。两份清单支持的字段（ID、名称、版本、入口、图标、权限、更新地址）必须一致。
+上面的摘要与大小是示意值，必须根据最终文件生成。`package` 只属于在线清单；包内清单也包含相同 `update.url`，不包含 `package`。两份清单支持的字段（ID、名称、简介、版本、入口、图标、权限、更新地址）必须一致。
 
 ## 生成摘要与大小
 

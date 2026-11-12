@@ -22,6 +22,7 @@ my-miniapp.miniapp
   "manifestVersion": 1,
   "id": "my-miniapp",
   "name": "我的小程序",
+  "description": "说明小程序的用途，帮助用户在安装前了解功能。",
   "version": "1.0.0",
   "entry": "index.html",
   "icon": "icon.svg",
@@ -37,6 +38,7 @@ my-miniapp.miniapp
 | `manifestVersion` | 是 | 固定为数字 `1` |
 | `id` | 是 | 1–64 字符，以小写字母开头，只含小写字母、数字和连字符；发布后保持不变 |
 | `name` | 是 | 非空字符串，最多 80 字符，不含控制字符 |
+| `description` | 否 | 安装确认中展示的简介；去除首尾空白后非空，原始长度最多 500 字符，允许换行和制表符，不含其他控制字符；旧包可省略 |
 | `version` | 是 | SemVer，如 `1.0.0`、`1.1.0-beta.1` |
 | `entry` | 是 | 包内入口文件的相对路径，文件必须存在 |
 | `icon` | 否 | 包内图标文件的相对路径，文件必须存在；推荐不超过 1 MiB 的 PNG、JPG、SVG、WebP 或 ICO |
