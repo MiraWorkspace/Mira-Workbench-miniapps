@@ -43,7 +43,7 @@ my-miniapp.miniapp
 | `requiredCapabilities` | 是 | 能力字符串数组，可为空，不能重复；仅支持[能力列表](sdk.md#能力列表)中的值 |
 | `update.url` | 本地安装可省略；网址安装必填 | 稳定的 HTTPS 发布清单地址，必须与用户输入的安装地址一致 |
 
-`mira-workbench`、`mira-workbench-test`、`mira-harness` 是保留 ID。不能通过 `test: true` 安装测试应用，不能声明 Mira 管理权限。Workbench 不使用 Cherry 的多语言对象型名称或反向域名 ID，字段必须遵循上表。
+`mira-workbench`、`mira-workbench-test`、`mira-harness` 是保留 ID。不能通过 `test: true` 安装测试应用，不能声明 Mira 管理权限。字段类型与格式必须遵循上表。
 
 `package` 字段只放在[在线清单](publishing.md#在线分发清单)，不放进安装包内。
 

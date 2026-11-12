@@ -54,5 +54,3 @@ https://miraworkspace.github.io/workbench-sdk-playground/manifest.json
 - [Mira-Workbench](https://github.com/MiraWorkspace/Mira-Workbench)：可选子应用，也是小程序宿主。
 - [Mira-App-SDK](https://github.com/MiraWorkspace/Mira-App-SDK)：消息客户端与类型定义。
 - [workbench-sdk-playground](https://github.com/MiraWorkspace/workbench-sdk-playground)：可运行的官方示例。
-
-文档组织与社区发现方式参考 [Cherry Studio MiniApps](https://github.com/CherryHQ/cherry-studio-miniapps)。Workbench 使用自己的包格式和 SDK 契约，开发时请以本文档为准。
